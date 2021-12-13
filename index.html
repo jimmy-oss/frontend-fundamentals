@@ -21,7 +21,7 @@
     <header>
     <h2>The Basic Language of the Web: HTML</h2>
     <img src="./images/laura-jones.jpg"  width="50px" height="50px" >
-    <p>Posted by <strong> Laura  Jones </strong> on Monday, June 21st 2027</p>
+    <p id="author">Posted by <strong> Laura  Jones </strong> on Monday, June 21st 2027</p>
     <article>
     <img src="./images/post-img.jpg" width="600px" height="250px">
     </header>
@@ -51,23 +51,23 @@
   </article>
   <aside>
      <h4>Related posts</h4>
-     <ul>
+     <ul class="related">
        <li><img src="./images/related-1.jpg" width="100px" height="100px"><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank"> How to Learn Web Development</a></li>
-       <p>by jimmy-oss</p>
+       <p class="related-author">by jimmy-oss</p>
        <li><img src="./images/related-2.jpg" width="100px" height="100px"><a href="http://peterdoes.it/category/css/" target="_blank"> The Unknown Powers Of Css</a></li>
-       <p>by Jim Dilton</p>
+       <p class="related-author">by Jim Dilton</p>
        <li><img src="./images/related-3.jpg" width="100px" height="100px"><a href="https://www.matildaexp.com/events" target="_blank"> Why Javascript is Awesome</a></li>
-       <p>by Matilda</p>
+       <p class="related-author">by Matilda</p>
      </ul>
   </aside>
-  <p>
-    <footer>
+  <footer>
+  <p id="copyright">
       Copyright &copy; 2027 by jimmy-oss magazine
-    </footer>
   </p>
+</footer>
   </body>
 </html>
-<!-- the <b> tag was used in the older versions of html files nowdays we use the <strong> tag which in the html5 represents its something important and it stands out while someone tries to load the web browser what i like about the b tag its short and i like using it 😃-
+<!-- the <b> tag was used in the older versions of html files nowdays we use the <strong> tag which in the html5 represents its something important and it stands out while someone tries to load the web browser what i like about the b tag its short and i like using it 😃
 The article element represents a section of content that forms an independent part of a document or site; for example, a magazine or newspaper article, or a blog entry.
 We semantic elements to give elements meaning into it like the div tag
 which represents a contained elements thats where class and id attributes come along
